@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Festivals&party's </title>
+  <title> DILFF </title>
 
   <style>
-  body {font-family: cursive;}
-  .tab {
+  body {
+  margin: 0;
+  font-family: cursive;
+}
+  .topnav {
     overflow: hidden;
-    border: none;
+    border: white;
     background-color: inherit;
   }
-
-  .tab button {
+  .topnav a {
+    padding: 14px 16px;
     background-color: inherit;
-    float: left;
-    border; none;
+    font-family: cursive;
+    float: center;
+    border: none;
     outline: none;
     cursor: pointer;
     padding: 14 px 16 px;
     transition: 0.3 s;
-    font-size: 31px;
+    font-size: 24px;
+    color: white;
   }
-  .tab button: hover {
-    background-color: #ddd;
+  .topnav a:hover {
+    background-color: inherit;
+    color: sienna;
 }
-  .tab button.active {
-    Background-color: #ccc
+  .topnav a.active {
+    Background-color: inherit;
+
   }
-  .tabcontent {
+  .topnavcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -43,7 +50,7 @@ background attachment: fixed;
     text-align: center;
     color: white;
 font-family: gabriola;
-font-size: 30px;
+font-size: 28px;
     }
   p { color: white;
     font-size: 22px;
@@ -52,39 +59,28 @@ font-size: 30px;
   }
 </style>
 </head>
-
 <body>
-  <h1> Festivals&party's </h1>
+  <div class="topnav">
+    <a href="Groningen.html">Groningen</a>
+    <a href="Utrecht.html">Utrecht</a>
+    <a href="Noord-Brabant.html">Noord-Brabant</a>
+    <a href="Friesland.html">Friesland</a>
+    <a href="Flevoland.html">Flevoland</a>
+    <a href="Noord-Holland.html">Noord-Holland</a>
+    <a href="Zuid-Holland.html">Zuid-Holland</a>
+    <a href="Gelderland.html">Gelderland</a>
+    <a href="Drenthe.html">Drenthe</a>
+    <a href="Overijssel.html">Overijssel</a>
+    <a href="Zeeland.html">Zeeland</a>
+    <a href="Limburg.html">Limburg</a>
+  </div>
+
+<div>
+<h2> Festivals&party's </h2>
 <p> Hee wij hebben een handige website gemaakt zodat jullie allemaal makkelijk kunnen kijken welke leukste party's en festivals er bij jou in de buurt zijn!! <3 </p>
-  <div class="tab">
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Groningen')"> Groningen </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Utrecht')"> Utrecht </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Noord-Brabant')"> Noord-Brabant </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Noord-Holland')"> Noord-Holland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Zuid-Holland')"> Zuid-Holland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Gelderland')"> Gelderland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Friesland')"> Friesland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Drenthe')"> Drenthe </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Overijssel')"> Overijssel </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Flevoland')"> Flevoland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Zeeland')"> Zeeland </button>
-  <button class="tablinks"
-  onclick=:"openCity(event,  'Limburg')"> Limburg </button>
 </div>
-<div id="Groningen" class="tabcontent">
-  <h3> Groningen</h3>
-  <p> blabla </p>
+
+<div id="Groningen" class="container">
 </div>
   </body>
 </html>
