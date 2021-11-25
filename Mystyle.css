@@ -1,0 +1,64 @@
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+}
+</head>
+<style>
+body {
+margin: 0;
+font-family: cursive;
+}
+.topnav {
+  overflow: hidden;
+  border: white;
+  background-color: inherit;
+}
+.topnav a {
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: cursive;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14 px 16 px;
+  transition: 0.3 s;
+  font-size: 24px;
+  color: white;
+}
+.topnav a:hover {
+  background-color: inherit;
+  color: sienna;
+}
+.topnav a.active {
+  Background-color: inherit;
+
+}
+.topnavcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: : none;
+}
+body {
+  background: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+background-repeat: no-repeat;
+background attachment: fixed;
+background-size: cover;
+background-position: center;
+height: 700px;
+  text-align: center;
+  color: white;
+font-family: gabriola;
+font-size: 28px;
+  }
+p { color: white;
+  font-size: 22px;
+  text-align: center;
+  font-family: cursive;
+}
